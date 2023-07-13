@@ -7,13 +7,14 @@ export default function App() {
     <div className="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
       <div className="lg:col-span-3">
         <h1 className="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">
-          Build Better Products
+        Experience World-Class Education In Canada
         </h1>
         <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
-          Introducing a new way for your brand to reach the creative community.
-        </p>
+        Choose From A Wide Rage Of Diploma, UG & PG Courses From Top Rated Public Universities
+
+</p>
         <div className="mt-5 lg:mt-8 flex flex-col items-center gap-2 sm:flex-row sm:gap-3">
-          <div className="w-full sm:w-auto">
+          {/* <div className="w-full sm:w-auto">
             <label htmlFor="hero-input" className="sr-only">
               Search
             </label>
@@ -24,16 +25,16 @@ export default function App() {
               className="py-3 px-4 block w-full xl:min-w-[18rem] border-gray-200 shadow-sm rounded-md focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
               placeholder="Enter work email"
             />
-          </div>
+          </div> */}
           <a
             className="w-full sm:w-auto inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4 dark:focus:ring-offset-gray-800"
             href="#"
           >
-            Request demo
+            Get in Touch
           </a>
         </div>
         {/* Brands */}
-        <div className="mt-6 lg:mt-12">
+        {/* <div className="mt-6 lg:mt-12">
           <span className="text-xs font-medium text-gray-800 uppercase dark:text-gray-200">
             Trusted by:
           </span>
@@ -174,7 +175,7 @@ export default function App() {
               />
             </svg>
           </div>
-        </div>
+        </div> */}
         {/* End Brands */}
       </div>
       {/* End Col */}
