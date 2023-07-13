@@ -2,6 +2,13 @@ export default function App() {
     return (
         <>
         {/* Testimonials */}
+        <div className="text-center">
+              <h1 className="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
+Students Testimonial             </h1>
+              {/* <p className="mt-1 text-gray-600 dark:text-gray-400">
+                We'd love to talk about how we can help you.
+              </p> */}
+            </div>
         <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           {/* Grid */}
           <div className="md:grid md:grid-cols-2 md:gap-10 lg:gap-16 md:items-center">
@@ -95,12 +102,11 @@ export default function App() {
                   />
                 </svg>
                 <div className="relative z-10">
-                  <p className="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-gray-200">
+                  {/* <p className="text-xs font-semibold text-gray-500 tracking-wide uppercase mb-3 dark:text-gray-200">
                     Featured client
-                  </p>
+                  </p> */}
                   <p className="text-xl font-medium italic text-gray-800 md:text-2xl md:leading-normal xl:text-3xl xl:leading-normal dark:text-gray-200">
-                    To say that switching to Preline has been life-changing is an
-                    understatement. My business has tripled and I got my life back.
+                  I got my ielts cleared in just 8 days it was all possible due to to AbGyan and Surabhi ma’am . She helped me with her excellent tips and tricks.
                   </p>
                 </div>
                 <footer className="mt-6">
@@ -114,11 +120,11 @@ export default function App() {
                     </div>
                     <div className="ml-4 md:ml-0">
                       <div className="text-base font-semibold text-gray-800 dark:text-gray-200">
-                        Nicole Grazioso
+                        Mr. Anuj
                       </div>
-                      <div className="text-xs text-gray-500 dark:text-gray-400">
+                      {/* <div className="text-xs text-gray-500 dark:text-gray-400">
                         Director Payments &amp; Risk | Airbnb
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </footer>
